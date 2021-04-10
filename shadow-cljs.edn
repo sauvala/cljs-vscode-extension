@@ -1,0 +1,6 @@
+{:source-paths ["src"]
+ :dependencies []
+ :builds
+ {:dev {:target :node-library
+        :output-to "out/main.js"
+        :exports-var cljs-vscode-extension.main/exports}}}

@@ -1,0 +1,27 @@
+{
+  "name": "cljs-vscode-extension",
+  "displayName": "cljs-vscode-extension",
+  "description": "An example how to use CLJS and REPL to develope extensions for VSCode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:cljs-vscode-extension.main.helloWorld"
+  ],
+  "main": "./out/main.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cljs-vscode-extension.main.helloWorld",
+        "title": "Hello World"
+      }
+    ]
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.12.4"
+  }
+}
