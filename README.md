@@ -19,7 +19,7 @@ After cloning the repo and opening it in VSCode:
 7. Open the `main.cljs` file and load the CLJS extension code to the repl with Calva by running the command `Calva: Load Current File and Dependencies`
 8. Now the REPL is ready. Try to use the native VSCode API to show another info popup by running `(.. vscode -window (showInformationMessage "Another info popup!"))` inside the `comment`-form in `main.cljs`:
    1. Take caret to the end of the form you want to execute: `(.. vscode -window (showInformationMessage "Another info popup!"))`
-   2. Execute the command: `Calva: Evaluate Corrent Form (or selection if any)`
+   2. Execute the command: `Calva: Evaluate Current Form (or selection, if any)`
    3. Now you should see the new info popup to show in the VSCode debug instance window
 
 The info popups will be shown in the VSCode debug instance and console logs can be found in the `Debug Console` of the VSCode instance that you use for development.
