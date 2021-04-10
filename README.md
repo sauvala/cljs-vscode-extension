@@ -1,6 +1,6 @@
-# An example how to use CLJS and REPL to develope extensions for VSCode
+# An example how to use CLJS and REPL to develop extensions for VSCode
 
-Instructions how to easily develope VSCode extensions using Calva (https://github.com/BetterThanTomorrow/calva) and Shadow-cljs (https://github.com/thheller/shadow-cljs)
+Instructions how to easily develop VSCode extensions using Calva (https://github.com/BetterThanTomorrow/calva) and Shadow-cljs (https://github.com/thheller/shadow-cljs)
 
 ## Setup
 
